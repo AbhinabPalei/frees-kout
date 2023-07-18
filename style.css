@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    background: url(https://firebasestorage.googleapis.com/v0/b/notes-shareing.appspot.com/o/Test%2FIMG-20230718-WA0003.jpg?alt=media&token=55ce3b7e-1fe5-4e39-bfe7-72198554dac6);
+    
+
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+header .logo img{
+    position: relative;
+    height: 50px;
+    margin: 0 50px;
+    margin-top: -7px;
+    
+}
+
+header .navigation a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    
+    
+}
+
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+
+header .navigation a:hover{
+    background: rgb(41, 44, 123);
+}
+
+.content{
+    max-width: 650px;
+    margin: 100px 159px;
+}
+
+.content .info h1{
+    color: #fff;
+    font-size: 33px;
+    margin-bottom: 25px;
+}
+
+.content .info p{
+    font-size: 20px;
+    color: rgba(236, 227, 227, 0.933);
+    margin-bottom: 60px;
+
+}
+
+.content .info-btn{
+    color: #000;
+    background-color:rgb(97, 243, 97);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+   padding: 15px 20px;
+    border-radius: 5px;
+    margin-right: 100px;
+
+}
+
+
